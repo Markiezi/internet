@@ -1,0 +1,67 @@
+.page {
+    font-family: sans-serif;
+  }
+  
+  a {
+    color: white;
+  }
+  .header, footer {
+    height: 90px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  
+  .header {
+    font-size: 0;
+    margin: auto;
+    padding-left: 25%;
+  }
+  .logo {
+    font-size: 12px;
+    width: 200px;
+    height: 40px;
+    display: inline-flex;
+  }
+  .menu {
+    font-size: 16px;
+    display: inline-flex;
+  }
+  
+  .menu li {
+    margin-right: 5px;
+    display: inline-flex;
+  }
+  
+  .columns {
+    width: 800px;
+    margin: 100px auto;
+    font-size: 0;
+    display: flex;
+  }
+  
+  .left {
+    width: 200px;
+    margin-right: 10px;
+    height: 150px;
+    background-color: black;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 16px;
+    vertical-align: top;
+  }
+  .right {
+    width: 590px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 16px;
+    vertical-align: top;
+    display: flex;
+  }
+  
+  .left a {
+    margin-top: 5px;
+    display: block;
+  }
