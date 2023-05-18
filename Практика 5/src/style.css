@@ -1,0 +1,88 @@
+body {
+    background: linear-gradient(white);
+    border: 1px solid black;
+    color: white;
+    margin: 0 auto;
+    width: 60%;
+    align-items: center;
+}
+.page {
+    background-color: white;
+}
+.header {
+    position: fixed;
+    width: 60%;
+    top: 0px;
+}
+.header-container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(25, 100, 140);
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+.content-container {
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+}
+.footer-container {
+    height: 50px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.menu {
+    background-color: rgb(25, 100, 140);
+    height: 50px;
+}
+.menu-container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.mainHeader {
+    margin: auto;
+    margin: 0;
+    padding-top: 20px;
+}
+section {
+    background-color: rgb(25, 100, 140);
+}
+.sectionText {
+    text-align: center;
+}
+.link-menu {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+    height: 70px;
+}
+.flex-container {
+    display: flex;
+    margin-top: 30px;
+    text-align: center;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.Brief {
+    width: 300px;
+}
+.Bio {
+    width: 300px;
+}
+.Activity {
+    width: 300px;
+}
+.Links {
+    margin-top: 30px;
+    padding-top: 15px;
+}
+li {
+    list-style-type: none;
+}
+.instagram {
+    padding-right: 60px;
+}
